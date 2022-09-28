@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Title bar for small elements -->
+  <div style="background-color: #345975" class="title-bar hide-for-large hide-for-medium">
+    <div class="title-bar-left">
+      <button class="menu-icon" type="button" data-open="offCanvasNestedPush"></button>
+      <span class="title-bar-title"></span>
+    </div>
+  </div>
+
+  <!-- Left sidebar elements -->
+  <div class="off-canvas position-left is-closed" id="offCanvasNestedPush" data-off-canvas>
+    <div class="callout">
+      <div class="sidebar_buffer"></div>
+      <a class="sidebar_format" href="index.html" target="_self">Home</a>
+      <div class="sidebar_buffer"></div>
+      <a class="sidebar_format" href="resume.html" target="_self">Resume</a>
+      <div class="sidebar_buffer"></div>
+      <a class="sidebar_format" href="projects.html" target="_self">Projects</a>
+      <div class="sidebar_buffer"></div>
+      <a class="sidebar_format" href="fun.html" target="_self">About Me</a>
+      <div class="sidebar_buffer"></div>
+
+      <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div>
+  <!-- Sticky button element on top left corner for larger screens -->
+  <button style="background-color: #345975; position:fixed;" type="button" class="button hide-for-small-only"
+        data-toggle="offCanvasNestedPush">
+        <div class="menu-icon"></div>
+      </button>
+  <!-- This is where all the non-navigation bar information resides. -->
+  <div class="off-canvas-content">
+
+    <div class="parallax_resume parallax">
+      <!-- Buffer for medium on up -->
+      <div class="grid-x grid-padding-x show-for-medium">
+        <div style="height: 275px;" class="small-auto"></div>
+      </div>
+      <!-- Buffer for small only -->
+      <div class="grid-x grid-padding-x show-for-small-only">
+        <div style="height: 100px;" class="small-auto"></div>
+      </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-auto medium-2 small-1 cell">
+        </div>
+        <div class="large-5 medium-8 small-10 cell">
+          <div style="height: fit-content; background-color:rgba(0,0,0,0); border-color: rgba(0,0,0,0);"
+            class="primary callout intro_format">
+            <h1 class="intro_element">Resume</h1>
+            <div class="intro_line"></div>
+            <h2 class="intro_element"></h3>
+          </div>
+        </div>
+        <div class="large-auto medium-2 small-1 cell">
+        </div>
+      </div>
+
+    </div>
+    <div class="content element_color">
+      <div class="grid-x grid-padding-x">
+        <!-- <div class="large-auto medium-auto small-12" style="height: 20px; background-color: yellow"></div> -->
+        <div class="large-12 medium-12 small-12" style="height:fit-content; background-color: blue;">
+          <h2>Plans for this element:</h2>
+          <ul>
+            <li>resume stuff</li>
+            <li>education</li>
+            <li>work experience</li>
+            <li>honors/awards</li>
+            <li>include links (ex. when you list st. Thomas in the education section it should link to st thomas's website</li>
+          </ul>
+        </div>
+        <div class="large-12 medium-12 small-12">
+          <div class="quote_format">
+            <p>The best way to predict your future is to create it.</p>
+            <div class="quote_line"></div>
+            <p>--- Abraham Lincoln ---</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax_resume parallax" style="height: 200px"></div>
+    <div class="content element_color footer" style="height: 100px;">
+      <br>
+      <h2>Tucker Johnson - 2022</h2>
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+      $(document).foundation();
+    </script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
