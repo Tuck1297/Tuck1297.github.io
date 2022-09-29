@@ -13,7 +13,7 @@
 
 <body>
   <!-- Title bar for small elements -->
-  <div style="background-color: #345975" class="title-bar hide-for-large hide-for-medium">
+  <div style="background-color: #345975;" class="title-bar hide-for-large hide-for-medium">
     <div class="title-bar-left">
       <button class="menu-icon" type="button" data-open="offCanvasNestedPush"></button>
       <span class="title-bar-title"></span>
@@ -41,14 +41,17 @@
 
   <!-- Sticky button element on top left corner for larger screens -->
   <button style="background-color: #345975; position:fixed;" type="button" class="button hide-for-small-only"
-        data-toggle="offCanvasNestedPush">
-        <div class="menu-icon"></div>
-      </button>
-      
+    data-toggle="offCanvasNestedPush">
+    <div class="menu-icon"></div>
+  </button>
+
   <!-- This is where all the non-navigation bar information resides. -->
   <div class="off-canvas-content">
 
     <div class="parallax_projects parallax">
+      <div class="shape">
+        <div class="fill"></div>
+      </div>
       <!-- Buffer for medium on up -->
       <div class="grid-x grid-padding-x show-for-medium">
         <div style="height: 275px;" class="small-auto"></div>
@@ -58,6 +61,8 @@
         <div style="height: 100px;" class="small-auto"></div>
       </div>
 
+
+
       <div class="grid-x grid-padding-x">
         <div class="large-auto medium-2 small-1 cell">
         </div>
@@ -66,7 +71,8 @@
             class="primary callout intro_format">
             <h1 class="intro_element">Projects</h1>
             <div class="intro_line"></div>
-            <h2 class="intro_element"></h3>
+            <h2 class="intro_element">
+              </h3>
           </div>
         </div>
         <div class="large-auto medium-2 small-1 cell">
@@ -75,15 +81,65 @@
 
     </div>
     <div class="content element_color">
-      <div class="grid-x grid-padding-x">
+      <div class="grid-x">
         <!-- <div class="large-auto medium-auto small-12" style="height: 20px; background-color: yellow"></div> -->
-        <div class="large-12 medium-12 small-12" style="height:fit-content; background-color: blue;">
-          <h2>Plans for this element:</h2>
+        <div class="large-12 medium-12 small-12" style="height:fit-content;">
+          <!-- Project #1 -->
+          <div class="large-12 medium-12 small-12" style="background-color: red">3D Space and Textures Assignment</div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-2 medium-1 hide-for-small-only"></div>
+            <div class="large-4 medium-5 small-12 center_image">
+              <img src="Media/gouraud-shading-cg_min.jpg" alt="Gouraud Shading">
+            </div>
+            <div class="large-4 medium-5 small-12" style="background-color: green">description</div>
+            <div class="large-2 medium-1 hide-for-small-only"></div>
+            <div class="large-2 medium-1 hide-for-small-only"></div>
+            <div class="large-4 medium-5 small-12" style="background-color: green">description</div>
+            <div class="large-4 medium-5 small-12 center_image">
+              <img src="Media/phong-shading-cg_min.jpg" alt="Phong Shading">
+            </div>
+            <div class="large-2 medium-1 hide-for-small-only"></div>
+          </div>
+
+          <!-- Project #2 -->
+          <div class="large-12 medium-12 small-12" style="background-color: red">Foreign Film Essay Assignment</div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-2 medium-1 hide-for-small-only"></div>
+            <div class="large-4 medium-5 small-12 center_image">
+              <img src="Media/Crouching Tiger Hidden Dragon_min.jpg" alt="Crouching Tiger Hidden Dragon Film Poster">
+            </div>
+            <div class="large-4 medium-5 small-12 center_image">
+              <img src="Media/Hero_min.jpg" alt="Hero Film Poster">
+            </div>
+            <div class="large-2 medium-1 hide-for-small-only"></div>
+            <div class="large-12 medium-12 small-12">description</div>
+          </div>
+
+          <!-- Project #3 -->
+          <div class="large-12 medium-12 small-12" style="background-color: red">Creative Coding Assignment</div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-4 medium-6 small-12 center_image" style="background-color: blue">image</div>
+            <div class="large-4 medium-6 small-12 center_image" style="background-color: blue">image</div>
+            <div class="large-4 medium-12 small-12 center_image" style="background-color: blue">image</div>
+            <div class="large-6 medium-6 small-12" style="background-color: green">description</div>
+            <div class="large-6 medium-6 small-12" style="background-color: green">description</div>
+          </div>
+
+          <!-- Project #4 -->
+          <div class="large-12 medium-12 small-12" style="background-color: red">Line Clipping and Wire Assignment</div>
+          <div class="grid-x grid-padding-x center_image">
+            <div class="small-12">
+              <img src="Media/home-star-3d.gif" alt="Star Animation Gif">
+            </div>
+            <div class="small-12" style="background-color: green">description</div>
+          </div>
+
+          <!-- <h2>Plans for this element:</h2>
           <ul>
             <li>minimum of 3 projects that you have worked on in other classes / internships</li>
             <li>describe the purpose of each project and the work you did</li>
             <li>include at least one photo for each project</li>
-          </ul>
+          </ul> -->
         </div>
         <div class="large-12 medium-12 small-12">
           <div class="quote_format">

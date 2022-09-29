@@ -12,6 +12,18 @@ p {
 
 }
 
+img{
+    margin: 10px;
+    border-width: 5px;
+    background-color:rgb(158, 158, 158);
+    border-style: double;
+    border-radius: 10px;
+}
+
+.center_image{
+    text-align: center;    
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 4rem;
@@ -54,12 +66,13 @@ a {
 }
 
 .parallax_projects {
-    background-image: url(Media/project.jpg);
+    background: rgb(47,210,102);
+background: linear-gradient(0deg, rgba(47,210,102,1) 0%, rgba(67,81,185,1) 100%);
 }
 
 .content {
-    /* height: fit-content; */
-    height: 1000px;
+    height: fit-content;
+    /* height: 1000px; */
 }
 
 .element_color {
@@ -160,21 +173,13 @@ a {
 .shape {
     position: relative;
     top: 20px;
-    width: 100px;
-    height: 100px;
-    border-color: yellow;
-    border-radius: 50%;
-    background-color: yellow;
-    animation: move_around 6s linear 0s infinite;
+    width: fit-content;
+    height: fit-content;
+    background-image: url(/Media/open_pac.png);
+    animation: move_around 12s linear 0s infinite;
 }
 
 @keyframes move_around {
-    /* 0% {
-        left: -100%;
-    }
-    100% {
-        left: 45%;
-    } */
     0% {
         left:5%;
         top: 10px;
@@ -191,22 +196,22 @@ a {
     }
     50% {
         left: 85%;
-        top: 800px;
+        top: 790px;
         transform: rotate(90deg);
     }
     51% {
         left: 85%;
-        top: 800px; 
+        top: 790px; 
         transform: rotate(180deg);
     }
     75% {
         left: 5%;
-        top: 800px; 
+        top: 790px; 
         transform: rotate(180deg);
     }
     76% {
         left: 5%; 
-        top: 800px; 
+        top: 790px; 
         transform: rotate(270deg);
     }
     100% {
@@ -216,33 +221,19 @@ a {
     }
 }
 
-
-.triangle {
-    margin-top: 20%;
-    margin-left: 10px;
-    width: 75px;
-    height: 50px;
-    border-left: 40px solid yellow;
-    border-right: 40px solid #b2b9c1;
-    border-top: 30px solid yellow; 
-    border-bottom: 30px solid yellow;
-    animation: shape_change 0.1s linear 0s infinite alternate;
-}
-
 .fill{
-    margin-top: -60%;
-    margin-left: 90px;
-    height: 60px;
-    width: 20px;
-    background-color: #b2b9c1;
-    animation: shape_change 0.1s linear 1s infinite alternate;
+    height: 70px;
+    width: 70px;
+    animation: shape_background 0.1s linear 1s infinite alternate;
+    background-color: rgba(227, 227, 12, 1);
+    border-radius: 50%;
 }
 
-@keyframes shape_change {
+@keyframes shape_background {
     0% {
-        opacity: 0%;
+        background-color: rgba(227, 227, 12, 1);
     }
     100% {
-        opacity: 100%;
+        background-color: rgba(227, 227, 12, 0);
     }
 }
