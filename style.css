@@ -1,8 +1,8 @@
 html {
     font-size: 100%;
     /* For Firefox */
-    scrollbar-width: thin;
-    scrollbar-color: rgb(136,136,136) rgb(178,185,193);
+    /* scrollbar-width: thin; */
+    /* scrollbar-color: rgb(136,136,136) rgb(178,185,193); */
 }
 body{
     background-color: #ffffff;
@@ -66,8 +66,8 @@ a {
 }
 
 .parallax_projects {
-    background: rgb(47,210,102);
-background: linear-gradient(0deg, rgba(47,210,102,1) 0%, rgba(67,81,185,1) 100%);
+    /* background: rgb(47,210,102); */
+/* background: linear-gradient(0deg, rgba(47,210,102,1) 0%, rgba(67,81,185,1) 100%); */
 }
 
 .content {
