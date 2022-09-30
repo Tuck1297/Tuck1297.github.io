@@ -4,6 +4,12 @@ html {
     scrollbar-width: thin;
     scrollbar-color: rgb(136,136,136) rgb(178,185,193);
 }
+.button_class {
+    background-color: #345975;
+}
+.button_class:hover {
+    background-color: #345975;
+}
 body{
     background-color: #ffffff;
 }
