@@ -1,3 +1,5 @@
+/* Global CSS Properties */
+
 html {
     font-size: 100%;
     /* For Firefox */
@@ -31,6 +33,13 @@ img {
     background-color: rgb(158, 158, 158);
     border-style: double;
     border-radius: 10px;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 200;
 }
 
 .center {
@@ -72,166 +81,7 @@ h4 {
     font-weight: 200;
 }
 
-/* Overall parrallax */
-
-.parallax {
-    height: 900px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Home content */
-
-.parallax_home {
-    background-image: url(Media/deep\ hole-min.JPG);
-}
-
-/* Fun content */
-
-.parallax_fun {
-    background-image: url(Media/min_yellowstone_milkyway_lens-min.jpg);
-}
-
-/* Resume content */
-
-.parallax_resume {
-    background-image: url(Media/min_yellowstone_road-min.jpg);
-}
-
-.profile_format {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 500;
-    background-color: #ffffff;
-    text-align: center;
-    text-decoration:solid;
-    text-decoration-line: underline;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.sub_header_format {
-    text-decoration: solid;
-    text-decoration-line: underline;
-}
-
-.profile_bg_element {
-    background-color: #FFFFFF;
-    width: 250px;
-    margin: auto;
-    padding: 10px;
-    border-width: 10px;
-    border-radius: 0%;
-    border-style: groove;
-    border-color: #345975;
-}
-
-.resume_buffer {
-    background-color: #888;
-}
-
-.info_format {
-    background-color: #ffffff;
-}
-
-.history_format {
-    background-color: #FFFFFF;
-}
-
-.table_format {
-    padding: 20px;
-}
-
-.resume_link {
-
-}
-
-.resume_link:link {
-    color:rgba(67, 81, 185, 1);
-}
-
-.resume_link:visited {
-    color:rgb(115, 10, 136)
-}
-
-.resume_link:hover {
-    color: rgb(23, 12, 233);
-}
-
-
-/* Projects content */
-
-.parallax_projects {
-    background-color: rgba(128, 128, 128, 0);
-}
-
-.project_title {
-    padding: 30px;
-    color: #888;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-}
-
-.project_desc {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    background-color: #888;
-}
-
-.projects_body {
-    background: rgb(47, 210, 102);
-    background: linear-gradient(96deg, rgb(0, 168, 56) 0%, rgba(67, 81, 185, 1) 50%);
-}
-
-.project_1_parallax{
-    height: 600px;
-    background-image: url(Media/phong-shading-cg-ev1.JPG);
-}
-
-.project_2_parallax{
-    background-color: rgb(233, 215, 109);
-    height: 600px;
-    background-image: url(Media/hero-tiger.min2.png);   
-}
-
-.project_3_parallax{
-    height: 800px; 
-    background-image: url(Media/creative_min_2.jpg);
-}
-
-.project_4_parallax{
-    height: 800px; 
-    background-image: url(Media/home-star-3d.gif);
-}
-
-.content_link {
-    text-decoration: underline;
-}
-
-.content_link:link {
-    color: rgb(0, 21, 247);
-}
-.content_link:visited {
-    color: rgb(115, 10, 136);
-}
-.content_link:hover {
-    color: #f3f3f3;
-}
-
-.content {
-    height: fit-content;
-    box-shadow: 10px -40px 52px -30px rgba(0, 0, 0, 0.65);
-    -webkit-box-shadow: 10px -40px 52px -30px rgba(0, 0, 0, 0.65);
-    -moz-box-shadow: 10px -40px 52px -30px rgba(0, 0, 0, 0.65);
-}
-
-.element_color {
-    background-color: rgba(128, 128, 128, 0);
-}
+/* Intro Page title  */
 
 .intro_format {
     text-align: center;
@@ -280,14 +130,33 @@ h4 {
     border-radius: 50%;
 }
 
+.content {
+    box-shadow: 10px -40px 52px -30px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 10px -40px 52px -30px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px -40px 52px -30px rgba(0, 0, 0, 0.65);
+}
+
+.page_buffer {
+    background-color: #888;
+}
+
+.desc {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #888;
+}
+
+.bg {
+    background-color:#888
+}
+
 /* All Pages Footer */
 .footer {
     background-color: #888;
     text-align: center;
-}
-
-.footer_parallax {
-    height: 200px;
+    height: 100px;
 }
 
 .footer_line {
@@ -299,6 +168,9 @@ h4 {
 
 .footer_info {
     margin-top: 20px;
+}
+.element_color {
+    background-color: rgba(128, 128, 128, 0);
 }
 
 /* Sidebar */
@@ -348,6 +220,147 @@ h4 {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+/* Overall parrallax */
+
+.parallax {
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* index.html content */
+
+.parallax_home {
+    background-image: url(Media/deep\ hole-min.JPG);
+}
+
+/* Fun.html content */
+
+.parallax_fun {
+    background-image: url(Media/min_yellowstone_milkyway_lens-min.jpg);
+}
+
+
+
+/* Resume.html content */
+
+.parallax_resume {
+    background-image: url(Media/min_yellowstone_road-min.jpg);
+}
+
+.profile_format {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration:solid;
+    text-decoration-line: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub_header_format {
+    text-decoration: solid;
+    text-decoration-line: underline;
+}
+
+.profile_bg_element {
+    background-color: #FFFFFF;
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 0%;
+    border-style: groove;
+    border-color: #345975;
+}
+
+.info_format {
+    background-color: #ffffff;
+}
+
+.history_format {
+    background-color: #FFFFFF;
+}
+
+.table_format {
+    padding: 20px;
+}
+
+.resume_link {
+    
+}
+
+.resume_link:link {
+    color:rgba(67, 81, 185, 1);
+}
+
+.resume_link:visited {
+    color:rgb(115, 10, 136)
+}
+
+.resume_link:hover {
+    color: rgb(23, 12, 233);
+}
+
+
+/* Projects.html content */
+
+.parallax_projects {
+    background-color: rgba(128, 128, 128, 0);
+}
+
+/* .project_title {
+    padding: 30px;
+    color: #888;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+} */
+
+.projects_body {
+    background: rgb(47, 210, 102);
+    background: linear-gradient(96deg, rgb(0, 168, 56) 0%, rgba(67, 81, 185, 1) 50%);
+}
+
+.project_1_parallax{
+    height: 600px;
+    background-image: url(Media/phong-shading-cg-ev1.JPG);
+}
+
+.project_2_parallax{
+    background-color: rgb(233, 215, 109);
+    height: 600px;
+    background-image: url(Media/hero-tiger.min2.png);   
+}
+
+.project_3_parallax{
+    height: 800px; 
+    background-image: url(Media/creative_min_2.jpg);
+}
+
+.project_4_parallax{
+    height: 800px; 
+    background-image: url(Media/home-star-3d.gif);
+}
+
+.content_link {
+    text-decoration: underline;
+}
+
+.content_link:link {
+    color: rgb(0, 21, 247);
+}
+.content_link:visited {
+    color: rgb(115, 10, 136);
+}
+.content_link:hover {
+    color: #f3f3f3;
+}
+
 
 /* Pacman Animation */
 .shape {
