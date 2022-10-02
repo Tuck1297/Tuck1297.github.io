@@ -237,6 +237,26 @@ h4 {
     background-image: url(Media/deep\ hole-min.JPG);
 }
 
+#profile_image {
+    border-radius: 50%;
+    width: 50%;
+    border-width: 8px;
+    background-color: black;
+    border-color: #345975;
+    
+}
+
+.custom_list_element {
+    position: relative;
+    left: 45%;
+    top: 20px;
+    height: 10px; 
+    width: 10px; 
+    background-color: rgba(red, green, blue, 0);
+    border-width: 5px;
+    border-style: double;
+}
+
 /* Fun.html content */
 
 .parallax_fun {
