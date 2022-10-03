@@ -43,10 +43,6 @@ ul {
     font-weight: 200;
 }
 
-li {
-    
-}
-
 .center {
     text-align: center;
 }
@@ -283,11 +279,15 @@ h4 {
     border-radius: 14px;
     border: none;
     cursor: pointer;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
-  .insta_button:hover {
+  /* .insta_button:hover {
     background-color: white;
-  }
+  } */
 
 /* Resume.html content */
 
@@ -379,6 +379,30 @@ h4 {
     /* background: linear-gradient(96deg, rgb(0, 168, 56) 0%, rgba(67, 81, 185, 1) 50%); */
 }
 
+.github_button {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+.github_button:hover, .insta_button:hover {
+    background-color: #fff;
+    /* border-radius: 50%; */
+    -webkit-transform: rotate(360deg) scale(1.1);
+    -moz-transform: rotate(360deg) scale(1.1);
+    -o-transform: rotate(360deg) scale(1.1);
+    -ms-transform: rotate(360deg) scale(1.1);
+    transform: rotate(360deg) scale(1.1);
+}
+
+
+
+
 .project_1_parallax{
     height: 600px;
     background-image: url(Media/phong-shading-cg-ev1.JPG);
@@ -422,7 +446,16 @@ h4 {
     width: fit-content;
     height: fit-content;
     background-image: url(/Media/open_pac.png);
-    animation: move_around 12s linear 0s infinite;
+    /* animation: move_around 12s linear 0s infinite; */
+    animation-name: move_around;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    -webkit-transition: 0s infinite;
+    -moz-transition: 0s infinite;
+    -o-transition: 0s infinite;
+    transition: 0s infinite;
+
 }
 
 @keyframes move_around {
@@ -434,42 +467,70 @@ h4 {
     25% {
         left: 85%;
         top: 10px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg); 
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
         transform: rotate(0deg);
     }
 
     26% {
         left: 85%;
         top: 10px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg); 
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
         transform: rotate(90deg);
     }
 
     50% {
         left: 85%;
         top: 770px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg); 
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
         transform: rotate(90deg);
     }
 
     51% {
         left: 85%;
         top: 770px;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg); 
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
         transform: rotate(180deg);
     }
 
     75% {
         left: 5%;
         top: 770px;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg); 
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
         transform: rotate(180deg);
     }
 
     76% {
         left: 5%;
         top: 770px;
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg); 
+        -o-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
         transform: rotate(270deg);
     }
 
     100% {
         left: 5%;
         top: 10px;
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg); 
+        -o-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
         transform: rotate(270deg);
     }
 }

@@ -97,7 +97,3 @@ function myTimer() {
 
 
 }
-
-function link() {
-    window.location.href='https://www.instagram.com/humble4realphotos/';
-}
