@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About me</title>
+  <title>About Me</title>
   <link rel="icon" href="Media/full-star.png">
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
@@ -14,7 +14,7 @@
 
 <body>
   <!-- Title bar for small elements -->
-  <div style="background-color: #345975" class="title-bar hide-for-large hide-for-medium">
+  <div class="title-bar hide-for-large hide-for-medium button_class">
     <div class="title-bar-left">
       <button class="menu-icon" type="button" data-open="offCanvasNestedPush"></button>
       <span class="title-bar-title"></span>
@@ -41,7 +41,7 @@
   </div>
 
   <!-- Sticky button element on top left corner for larger screens -->
-  <button style="position:fixed;" type="button" class="button_class button hide-for-small-only"
+  <button type="button" class="fixed button_class button hide-for-small-only"
     data-toggle="offCanvasNestedPush">
     <div class="menu-icon"></div>
   </button>
@@ -52,22 +52,21 @@
     <div class="parallax_fun parallax">
       <!-- Buffer for medium on up -->
       <div class="grid-x grid-padding-x show-for-medium">
-        <div style="height: 275px;" class="small-auto"></div>
+        <div class="small-auto cell buffer_275"></div>
       </div>
       <!-- Buffer for small only -->
       <div class="grid-x grid-padding-x show-for-small-only">
-        <div style="height: 100px;" class="small-auto"></div>
+        <div class="small-auto cell buffer_100"></div>
       </div>
 
       <div class="grid-x grid-padding-x">
         <div class="large-auto medium-2 cell">
         </div>
         <div class="large-5 medium-8 small-12 cell">
-          <div style="height: fit-content; background-color:rgba(0,0,0,0); border-color: rgba(0,0,0,0);"
-            class="primary callout intro_format">
-            <h1 class="intro_element">About Me</h1>
+          <div class="callout intro_format">
+            <h1 class="intro_element padding_10">About Me</h1>
             <div class="intro_line"></div>
-            <h2 class="intro_element">
+            <h2 class="intro_element padding_10">
               </h3>
           </div>
         </div>
@@ -78,18 +77,17 @@
     </div>
     <div class="content element_color">
       <div class="grid-x grid-padding-x">
-        <!-- <div class="large-auto medium-auto small-12" style="height: 20px; background-color: yellow"></div> -->
         <div class="large-12 medium-12 small-12">
           <div class="grid-x">
-            <div class="cell large-2 medium-1 small-12 page_buffer"></div>
-            <div class="cell large-8 medium-10 small-12 content bg center">
-              <h3 style="padding-left: 0px;">Aspirations</h3>
-              <p class="desc">
+            <div class="large-2 medium-1 small-12 cell page_buffer"></div>
+            <div class="large-8 medium-10 small-12 cell content bg center">
+              <h3>Aspirations</h3>
+              <p class="padding_30">
                 More than anything, I want to live my life with no regrets.
                 Either it be working, hanging out with family or traveling, I
                 intend to do so with an 'ALL IN' mentality.
               </p>
-              <h3 style="padding-left: 0px;">Hiking - Traveling - Photography</h3>
+              <h3>Hiking - Traveling - Photography</h3>
               <div class="gallery" id="img_1">
                 <img src="Media/photography_img_1.jpg" alt="Baker Park Reserve">
                 <h2>Baker Park Reserve - Loretto Minnesota</h2>
@@ -130,40 +128,42 @@
                 <img src="Media/photography_img_10.jpg" alt="Black Elk Peak">
                 <h2>Black Elk Peak - Black Hills South Dakota</h2>
               </div>
-              <p class="desc"> When I am not hanging out with family, in the classroom,
+              <p class="padding_30"> When I am not hanging out with family, in the classroom,
                 or at work there are three things that I love doing more than anything else.
                 They are hiking, traveling, and photography. The perfect trifecta! Over the last
                 four years I have been fortunate enough to travel, hike and take photos from the
                 platform of Mt. Rushmore to the valleys of Yellowstone National Park. My favorite hike
                 overall would have to be to the top of Black Elk Peak where it feels like the land
-                is touching the sky. A few of my favorite photos are below, but you can also view more
+                is touching the sky. A few of my favorite photos are above, but you can also view more
                 on my instagram page by clicking the button below.
                 </p>
                 <a class="content_link" href="https://www.instagram.com/humble4realphotos/" target="_blank">
-                  <img class="insta_button" src="Media/instagram.png" alt="Instagram">
+                  <img class="insta_button" src="Media/insta_image.png" alt="Instagram">
                 </a>
-                <h3 style="padding-left: 0px; padding-bottom: 40px;">Timelapse</h3>
+                <h3 class="padding_30">Timelapse</h3>
               <div class="grid-x">
-                <div class="cell large-6 medium-6 small-12">
+                <div class="large-6 medium-6 small-12 cell">
+                  <!-- Embed code provided by Youtube -->
                   <iframe src="https://www.youtube.com/embed/jnXhA94vq0U" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 </div>
-                <div class="cell large-6 medium-6 small-12">
+                <div class="large-6 medium-6 small-12 cell">
                   <iframe src="https://www.youtube.com/embed/sKzSQrKq9IQ" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 </div>
-                <div class="cell large-12 medium-12 small-12" style="height: 50px;"></div>
+                <div class="large-12 medium-12 small-12 cell buffer_100"></div>
               </div>
             </div>
-            <div class="cell large-2 medium-1 small-12 page_buffer"></div>
+            <div class="large-2 medium-1 small-12 cell page_buffer"></div>
           </div>
-          <div class="parallax_fun parallax" style="height: 200px"></div>
+          </div>
         </div>
         <!-- Quote -->
-        <div class="large-12 medium-12 small-12">
-          <div class="quote_format">
+        <div class="large-12 medium-12 small-12 cell">
+          <div class="parallax_fun footer_parallax"></div>
+          <div class="quote_format padding_30">
             <h2>All your dreams can come true if you have the courage to pursue them.</h2>
             <div class="quote_line"></div>
             <p>--- Walt Disney ---</p>
@@ -172,16 +172,11 @@
       </div>
     </div>
     <!-- Footer -->
-    <div class="content footer" style="height: 100px;">
+    <div class="content footer ">
       <div class="footer_line"></div>
       <h2 class="footer_info">Tucker Johnson - 2022</h2>
     </div>
     <script src="script.js"></script>
-    <script src="js/vendor.js"></script>
-    <script src="js/foundation.js"></script>
-    <script type="application/javascript">
-      $(document).foundation();
-    </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
