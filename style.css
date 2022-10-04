@@ -86,6 +86,7 @@ h4 {
 
 .fixed{
     position: fixed;
+    z-index: 0;
 }
 
 .padding_10{
