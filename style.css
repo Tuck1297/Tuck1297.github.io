@@ -445,6 +445,7 @@ h4 {
     width: fit-content;
     height: fit-content;
     background-image: url(/Media/open_pac.png);
+    background-repeat: no-repeat;
     /* animation: move_around 12s linear 0s infinite; */
     animation-name: move_around;
     animation-iteration-count: infinite;
