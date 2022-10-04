@@ -5,6 +5,7 @@ html {
     /* For Firefox */
     scrollbar-width: thin;
     scrollbar-color: rgb(136, 136, 136) rgb(178, 185, 193);
+    overflow-x: hidden;
 }
 
 body {
@@ -84,12 +85,6 @@ h4 {
     display: inline;
 }
 
-/* .fixed{
-    position: fixed;
-    z-index: 0;
-    -webkit-transform: translateZ(0);
-} */
-
 .padding_10{
     padding: 10px;
 }
@@ -162,7 +157,7 @@ h4 {
     -moz-box-shadow: 10px -40px 52px -30px rgba(0, 0, 0, 0.65);
 }
 
-.bg {
+.bg_shade {
     background-color: rgba(136,136,136,0.6);
 }
 
@@ -183,6 +178,15 @@ h4 {
 .footer_info {
     margin-top: 20px;
 }
+
+.footer_parallax {
+    height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .element_color {
     background-color: rgba(128, 128, 128, 0);
 }
@@ -243,15 +247,6 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.footer_parallax {
-    height: 200px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* index.html content */
 
 .parallax_home {
