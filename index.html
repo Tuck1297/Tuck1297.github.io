@@ -13,6 +13,14 @@
 </head>
 
 <body>
+    <!-- Sticky button element on top left corner for larger screens -->
+    <nav class="sticky" data-topbar role="navigation" data-sticky 
+    style="height: 0px;">
+      <button type="button" class="button_class button hide-for-small-only" data-toggle="offCanvasNestedPush">
+        <div class="menu-icon"></div>
+      </button>
+    </nav>
+
   <!-- Title bar for small elements -->
   <div class="title-bar hide-for-large hide-for-medium button_class">
     <div class="title-bar-left">
@@ -39,10 +47,6 @@
     </div>
   </div>
 
-  <!-- Sticky button element on top left corner for larger screens -->
-  <button type="button" class="fixed button_class button hide-for-small-only" data-toggle="offCanvasNestedPush">
-    <div class="menu-icon"></div>
-  </button>
   <!-- This is where all the non-navigation bar information resides. -->
   <div class="off-canvas-content">
 
@@ -132,6 +136,9 @@
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/what-input.js"></script>
   <script src="js/vendor/foundation.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
   <script src="js/app.js"></script>
 </body>
 

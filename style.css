@@ -84,11 +84,11 @@ h4 {
     display: inline;
 }
 
-.fixed{
+/* .fixed{
     position: fixed;
     z-index: 0;
     -webkit-transform: translateZ(0);
-}
+} */
 
 .padding_10{
     padding: 10px;

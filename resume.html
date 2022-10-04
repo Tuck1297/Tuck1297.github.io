@@ -13,11 +13,18 @@
 </head>
 
 <body>
+    <!-- Sticky button element on top left corner for larger screens -->
+    <nav class="sticky" data-topbar role="navigation" data-sticky 
+    style="height: 0px;">
+      <button type="button" class="button_class button hide-for-small-only" data-toggle="offCanvasNestedPush">
+        <div class="menu-icon"></div>
+      </button>
+    </nav>
+
   <!-- Title bar for small elements -->
   <div class="title-bar hide-for-large hide-for-medium button_class">
     <div class="title-bar-left">
       <button class="menu-icon" type="button" data-open="offCanvasNestedPush"></button>
-      <span class="title-bar-title"></span>
     </div>
   </div>
 
@@ -39,11 +46,6 @@
       </button>
     </div>
   </div>
-  <!-- Sticky button element on top left corner for larger screens -->
-  <button type="button" class="fixed button_class button hide-for-small-only"
-    data-toggle="offCanvasNestedPush">
-    <div class="menu-icon"></div>
-  </button>
   <!-- This is where all the non-navigation bar information resides. -->
   <div class="off-canvas-content">
 
