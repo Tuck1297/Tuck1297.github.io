@@ -1,1 +1,2 @@
-# H1 Hello
+Web Development - Homework Assignment 1
+---------------------------------------
