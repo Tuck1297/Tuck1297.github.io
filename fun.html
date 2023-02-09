@@ -13,20 +13,50 @@
 </head>
 
 <body>
-    <!-- Sticky button element on top left corner for larger screens -->
-    <nav class="sticky" data-topbar role="navigation" data-sticky 
-    style="height: 0px;">
-      <button type="button" class="button_class button hide-for-small-only" data-toggle="offCanvasNestedPush">
-        <div class="menu-icon"></div>
-      </button>
-    </nav>
+  <!-- Sticky button element on top left corner for larger screens -->
+  <nav class="sticky" data-topbar role="navigation" data-sticky style="height: 0px;">
+    <button type="button" class="button_class button hide-for-small-only" data-toggle="offCanvasNestedPush">
+      <div class="menu-icon"></div>
+    </button>
+  </nav>
 
-  <!-- Title bar for small elements -->
-  <div class="title-bar hide-for-large hide-for-medium button_class">
-    <div class="title-bar-left">
-      <button class="menu-icon" type="button" data-open="offCanvasNestedPush"></button>
-    </div>
+<!-- Sticky Social Media element on top right corner of larger screens -->
+<div class="social_nav hide-for-small-only">
+  <div class="social_pie"></div>
+  <div class="btn_position_1">
+    <a href="https://www.instagram.com/humble4realphotos/" target="_blank">
+      <img class="social_nav_btn" src="Media/insta_image.png" alt="Instagram">
+    </a>
   </div>
+  <div class="btn_position_2">
+    <a href="https://github.com/Tuck1297" target="_blank">
+      <img class="social_nav_btn" src="Media/github.png" alt="Instagram">
+    </a>
+  </div>
+  <div class="btn_position_3">
+    <a href="https://www.linkedin.com/in/johnson-tucker-dev/" target="_blank">
+      <img class="social_nav_btn" src="Media/linkedin.png" alt="Instagram">
+    </a>
+  </div>
+</div>
+
+<!-- Title bar for small elements -->
+<div class="title-bar hide-for-large hide-for-medium button_class">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button" data-open="offCanvasNestedPush"></button>
+  </div>
+  <div class="title-bar-right">
+    <a href="https://www.instagram.com/humble4realphotos/" target="_blank">
+      <img class="social_nav_btn" src="Media/insta_image.png" alt="Instagram">
+    </a>
+    <a href="https://github.com/Tuck1297" target="_blank">
+      <img class="social_nav_btn" src="Media/github.png" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/in/johnson-tucker-dev/" target="_blank">
+      <img class="social_nav_btn" src="Media/linkedin.png" alt="Instagram">
+    </a>
+  </div>
+</div>
 
   <!-- Left sidebar elements -->
   <div class="off-canvas position-left is-closed" id="offCanvasNestedPush" data-off-canvas>
@@ -86,8 +116,8 @@
               <p class="padding_30">
                 More than anything, I want to live my life with no regrets.
                 Either it be working, hanging out with family or traveling, I
-                intend to do so with an <a class="content_link" 
-                href="https://www.youtube.com/watch?v=0RwDpnKIvUI" target="_blank">'ALL IN'</a> mentality. 
+                intend to do so with an <a class="content_link" href="https://www.youtube.com/watch?v=0RwDpnKIvUI"
+                  target="_blank">'ALL IN'</a> mentality.
               </p>
               <h3>Hiking - Traveling - Photography</h3>
               <div class="gallery" id="img_1">
@@ -130,20 +160,17 @@
                 <img src="Media/photography_img_10.jpg" alt="Black Elk Peak">
                 <h2>Black Elk Peak - Black Hills South Dakota</h2>
               </div>
-              <p class="padding_30"> When I am not hanging out with family, in the classroom,
-                or at work there are three things that I love doing more than anything else.
-                They are hiking, traveling, and photography. The perfect trifecta! Over the last
-                four years I have been fortunate enough to travel, hike and take photos from the
-                platform of Mt. Rushmore to the valleys of Yellowstone National Park. My favorite hike
-                overall would have to be to the top of Black Elk Peak where it feels like the land
-                is touching the sky. A few of my favorite photos are above, but you can also view more
-                on my instagram page by clicking the button below.
-                </p>
-                <a class="content_link" href="https://www.instagram.com/humble4realphotos/" target="_blank">
-                  <img class="insta_button" src="Media/insta_image.png" alt="Instagram">
-                </a>
-                <p>Click Logo above to visit my instagram page.</p>
-                <h3 class="padding_30">Timelapse</h3>
+              <p class="padding_30"> There are three things that I love doing more than anything else when I'm not with
+                family, or at work. They are hiking, travel perfection! Over the last four years, I've had the good
+                fortune of being able to trek, explore, and take photos everywhere from Yellowstone National Park's
+                valleys to the platform of Mount Rushmore. The images above are only a handful of my favorites; but, by
+                visiting my instagram page you will certainly find more. 
+              </p>
+              <!-- <a class="content_link" href="https://www.instagram.com/humble4realphotos/" target="_blank">
+                <img class="insta_button" src="Media/insta_image.png" alt="Instagram">
+              </a>
+              <p>Click Logo above to visit my instagram page.</p> -->
+              <h3 class="padding_30">Timelapse</h3>
               <div class="grid-x">
                 <div class="large-6 medium-6 small-12 cell">
                   <!-- Embed code provided by Youtube -->
@@ -161,29 +188,29 @@
             </div>
             <div class="large-2 medium-1 small-12 cell page_buffer"></div>
           </div>
-          </div>
         </div>
-        <!-- Quote -->
-        <div class="large-12 medium-12 small-12 cell">
-          <div class="parallax_fun footer_parallax"></div>
-          <div class="quote_format padding_30">
-            <h2>All your dreams can come true if you have the courage to pursue them.</h2>
-            <div class="quote_line"></div>
-            <p>--- Walt Disney ---</p>
-          </div>
+      </div>
+      <!-- Quote -->
+      <div class="large-12 medium-12 small-12 cell">
+        <div class="parallax_fun footer_parallax"></div>
+        <div class="quote_format padding_30">
+          <h2>All your dreams can come true if you have the courage to pursue them.</h2>
+          <div class="quote_line"></div>
+          <p>--- Walt Disney ---</p>
         </div>
       </div>
     </div>
-    <!-- Footer -->
-    <div class="content footer ">
-      <div class="footer_line"></div>
-      <h2 class="footer_info">Tucker Johnson - 2022</h2>
-    </div>
-    <script src="script.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+  </div>
+  <!-- Footer -->
+  <div class="content footer ">
+    <div class="footer_line"></div>
+    <h2 class="footer_info">Tucker Johnson - 2022</h2>
+  </div>
+  <script src="script.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>

@@ -21,7 +21,7 @@ img_selector_8.setAttribute('style', 'display:none;');
 img_selector_9.setAttribute('style', 'display:none;');
 img_selector_10.setAttribute('style', 'display:none;');
 
-setInterval(myTimer, 10000);
+setInterval(myTimer, 4000);
 
 function myTimer() {
 
