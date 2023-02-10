@@ -315,7 +315,7 @@ iframe {
 /* index.html content */
 
 .parallax_home {
-    background-image: url(Media/deep\ hole-min.JPG);
+    background-image: url(Media/deep\ hole-min.jpg);
 }
 
 #profile_image {
@@ -457,32 +457,32 @@ iframe {
 
 .project_1_parallax{
     height: 600px;
-    background-image: url(Media/PerlinNoise.JPG);
+    background-image: url(Media/PerlinNoise.jpg);
 }
 
 .project_2_parallax{
     height: 600px;
-    background-image: url(Media/Kaleidoscope.JPG);
+    background-image: url(Media/Kaleidoscope.jpg);
 }
 
 .project_3_parallax{
     height: 600px;
-    background-image: url(Media/map.JPG);
+    background-image: url(Media/map.jpg);
 }
 
 .project_4_parallax{
     height: 600px;
-    background-image: url(Media/webserver.JPG);
+    background-image: url(Media/webserver.jpg);
 }
 
 .project_5_parallax{
     height: 600px;
-    background-image: url(Media/mapmn.JPG);
+    background-image: url(Media/mapmn.jpg);
 }
 
 .project_6_parallax{
     height: 600px;
-    background-image: url(Media/phong-shading-cg-ev1.JPG);
+    background-image: url(Media/phong-shading-cg-ev1.jpg);
 }
 
 /* .project_6_parallax{
