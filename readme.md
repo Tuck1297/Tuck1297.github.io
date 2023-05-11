@@ -1,11 +1,11 @@
 <div align="center">
   <h1>Personal Website Project</h1>
-  <img src="https://github.com/Tuck1297/tuck1297.github.io/blob/master/Media/homepage-personal-webpage.JPG" height="200"/>
+  <img src="https://github.com/Tuck1297/tuck1297.github.io/blob/master/Media/homepage-personal-webpage.JPG" height="400"/>
 </div>
 
 ## Project Overview
 
-This project is beginning of my journey in web development. To begin to learn and understand the fundamentals of HTML, CSS, and JavaScript one must understand how they work together to compile a webpage in a browser. Other than understanding the fundamentals, this project focused on creating a personal website that outlined at the time information about oneself. The specific criteria that were decided on include a page outlining accomplished projects, a Resume page, a short bio page and a homepage. 
+Being my first ever developed website, this project aims to share my abilities at using HTML, CSS and JavaScript to create a webpage telling you a bit about myself and my history. On this page you will find information pertaining to my Resume, Project history, a bit more about me. Other than the technology already mentioned, this project also utilizes Foundation (a CSS/JavaScript Library) to allow the webpage to be accessed and navigated through from any device. This project is a perfect, but simple example, of developing best practices in terms of web development while also making it accessible for all devices. 
 
 ---
 
