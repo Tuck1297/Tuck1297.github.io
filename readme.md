@@ -1,5 +1,6 @@
 <div align="center">
   <h1>Personal Website Project</h1>
+  <img src="https://github.com/Tuck1297/tuck1297.github.io/blob/master/Media/homepage-personal-webpage.JPG" height="200"/>
 </div>
 
 ## Project Overview
